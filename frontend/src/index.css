@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-deep-plum: #261329;
+  --color-brand-dark-berry: #432348;
+  --color-brand-muted-plum: #68445F;
+  --color-brand-dusty-mauve: #9A7185;
+  --color-brand-dusty-rose: #C6A6A4;
+  --color-brand-warm-beige: #E4D1C9;
+  --color-brand-soft-ivory: #F5EDE5;
+  --color-brand-warm-surface: #FAF5F0;
+  --color-brand-card-bg: #FFFFFF;
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #F5EDE5;
+    color: #261329;
+  }
+  code, pre {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
